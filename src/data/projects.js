@@ -4,7 +4,7 @@ const projects = [
     description:
       "A full-stack recipe platform with user authentication, filtering, and like system.",
     tech: ["React", "Tailwind", "Firebase", "Express", "MongoDB"],
-    live: "https://savorly-faisal-ahmed.netlify.app/",
+    live: "https://savorly-quadracraft.netlify.app/",
     client: "https://github.com/faisalahmed3/savorly-client",
     server: "https://github.com/faisalahmed3/savorly-server",
     image: "/savorly.png",
@@ -20,6 +20,16 @@ const projects = [
     image: "/powerplay.png",
   },
   {
+    title: "LectureLab",
+    description:
+      "LectureLab, is an online platform that connects students, tutors, and administrators, allowing them to book study sessions, share educational materials, and collaborate seamlessly",
+    tech: ["React", "Tailwind CSS", "React Router", "Firebase Auth", "Express.js", "MongoDB"],
+    live: "https://lecturelab-faisal-ahmed.netlify.app/",
+    client: "https://github.com/faisalahmed3/LectureLab-Client",
+    server: "https://github.com/faisalahmed3/LectureLab-Server",
+    image: "/LectureLab.png",
+  },
+  {
     title: "EventNest",
     description:
       "Frontend event listing site with filtering and animated UI components.",
@@ -28,15 +38,7 @@ const projects = [
     client: "https://github.com/faisalahmed3/event-nest",
     image: "/eventnest.png",
   },
-  {
-    title: "Phudu Health",
-    description:
-      "Frontend-only health service platform featuring doctors and appointments.",
-    tech: ["React", "Tailwind", "React Router"],
-    live: "https://phudu-health-faisal-ahmed.netlify.app/",
-    client: "https://github.com/faisalahmed3/phudu-health",
-    image: "/phuduhealth.png",
-  },
+  
 ];
 
 export default projects;

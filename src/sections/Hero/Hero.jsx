@@ -27,11 +27,11 @@ const Hero = () => {
           </a>
 
           <a
-            href="/Cv-Faisal Ahmed.pdf"
+            href="/Resume-Md Faisal Ahmed.pdf"
             download
             className="border border-[#ff3c38] text-[#ff3c38] hover:bg-[#d72a2a] hover:text-white px-6 py-3 rounded-xl transition duration-300 font-semibold shadow-md"
           >
-            Download CV
+            Download Resume
           </a>
         </div>
       </motion.div>
