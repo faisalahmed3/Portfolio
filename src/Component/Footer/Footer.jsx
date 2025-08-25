@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -29,13 +29,20 @@ const Footer = () => {
         >
           <FaEnvelope />
         </a>
+        <a
+          href="https://wa.me/8801876141732"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-white transition-colors duration-300"
+        >
+          <FaWhatsapp />
+        </a>
       </div>
 
       {/* Copyright */}
       <p>
         &copy; {new Date().getFullYear()} <span className="text-[#ff7b72] font-medium">Faisal Ahmed</span>. All rights reserved.
       </p>
-
       
     </footer>
   );
