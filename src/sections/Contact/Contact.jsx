@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import Lottie from "lottie-react";
 import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
@@ -118,6 +118,14 @@ const Contact = () => {
               className="hover:text-white transition-colors duration-300"
             >
               <FaEnvelope />
+            </a>
+            <a
+              href="https://wa.me/8801876141732"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors duration-300"
+            >
+              <FaWhatsapp />
             </a>
           </div>
         </div>
